@@ -9,6 +9,7 @@ This is brunch skeleton for starting a project in **WebGL** with [Three.js](http
 * Install (if you don't have them):
   * [Node.js](http://nodejs.org): `brew install node` on OS X
   * [Brunch](http://brunch.io): `npm install -g brunch`
+  * Add Babel presets for all [es2015](https://www.npmjs.com/package/babel-preset-es2015) and [es2016](https://www.npmjs.com/package/babel-preset-es2016) plugins `npm install --save-dev babel-preset-es2015 && npm install --save-dev babel-preset-es2016`
 * Create a new project :
   * Deploy with brunch :
     * `brunch new myapp --skeleton https://github.com/Jeremboo/brunch-threejs-es6` - create new project
